@@ -1,0 +1,15 @@
+{
+  "name": "stringcalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1"
+  },
+  "scripts": {
+    "test": "cucumber-js ./specs -r ./specs/steps --tags @e2e"
+  },
+  "author": "",
+  "license": "ISC"
+}
